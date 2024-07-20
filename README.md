@@ -1,3 +1,18 @@
+# VUTT README
+### Installation x86
+- `option(MLX_ENABLE_X64_MAC "Enable building for x64 macOS" ON)` in `CMakeLists.txt`
+
+-  Make sure openblas installed:
+```bash
+brew install openblas
+brew install lapack
+```
+
+- Build from source:
+```bash
+env CMAKE_BUILD_PARALLEL_LEVEL="" pip install .
+```
+
 # MLX
 
 [**Quickstart**](#quickstart) | [**Installation**](#installation) |
